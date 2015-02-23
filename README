@@ -1,0 +1,12 @@
+DVB SI Software
+------------------------------------------------------------------
+The DVB software consists of two major components:
+  o sectionparser
+  o sistorage
+
+The sistorage portion is using the following opensource components:
+  - sqlite3 database
+  - sqlite3pp - sqlite3 database wrapper
+  - boost - needed by sqlite3pp. Several Boost headers are needed to instantiate templatized
+    objects in sqlite3pp.h.
+
